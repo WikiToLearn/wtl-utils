@@ -1,1 +1,5 @@
 /release-check/data/
+/FilenameCheck/venv
+/FilenameCheck/apicache
+/FilenameCheck/throttle.ctrl
+/FilenameCheck/*.pyc
