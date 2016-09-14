@@ -39,7 +39,7 @@ p = open('passwordFile.txt','w')
 p.write('("WikiToBot", "'+ PASSWORD +'")\n')
 p.close()
 
-import check
+import course_fixer 
 
 #star process
-check.main(MODE, PREFIX)
+course_fixer.main(MODE, PREFIX)
