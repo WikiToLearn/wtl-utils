@@ -3,3 +3,4 @@
 /FilenameCheck/apicache
 /FilenameCheck/throttle.ctrl
 /FilenameCheck/*.pyc
+/Mathoid-Tester/venv/
