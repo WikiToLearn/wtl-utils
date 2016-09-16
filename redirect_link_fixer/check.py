@@ -27,6 +27,7 @@ def main():
           " domain for the " + config.family + " family")
     site = pywikibot.Site()
     site.login()
+    site.throttle.setDelays(1,1,True)
 
     BASE_SITE = site.family.langs[config.mylang]
     print("Base URL: " + BASE_SITE)
