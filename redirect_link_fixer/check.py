@@ -14,12 +14,12 @@ def fix_links(red, backpages):
     newurl = red.getRedirectTarget().title()
     print(">>>new url: ", newurl)
     for p in backpages:
-        text = p.text
-        print(text)
-        text = text.replace("[["+oldurl+"]]", "[[" + newurl + "]]")
-        p.text = text
         print(">>>fixing page: ",p.title())
-        p.save()
+        oldtext = p.text
+        text = oldtext.replace("[["+oldurl+"]]", "[[" + newurl + "]]")
+        if (oldtext != text):
+            p.text = text
+            p.save()
 
 
 def main():
@@ -34,8 +34,8 @@ def main():
     for red in pg.RedirectFilterPageGenerator(
         pg.AllpagesPageGenerator(site=site, step=10), no_redirects=False):
         print("> ",red.title())
-        pages_to_check = list(pg.ReferringPageGenerator(red))
+        pages_to_check = list(pg.ReferringPageGenerator(red, withTemplateInclusion=False))
         if len(pages_to_check)>0:
             fix_links(red, pages_to_check)
             #deleting Redirect
-            red.delete(reason="migration done", prompt=False, mark=False)
+            #red.delete(reason="migration done", prompt=False, mark=False)
