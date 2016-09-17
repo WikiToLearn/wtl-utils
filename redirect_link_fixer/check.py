@@ -16,12 +16,12 @@ def fix_links(red, backpages):
     print(">>>new url: ", newurl)
     for p in backpages:
         print(">>>fixing page: ",p.title())
-        oldtext = p.text
-        text = oldtext.replace("[["+oldurl+"]]", "[[" + newurl + "]]")
-        text = oldtext.replace("[["+oldurl_w+"]]", "[[" + newurl + "]]")
-        if (len(oldtext)!=len(text)):
-            p.text = text
-            p.save()
+        oldtext = p.text[:]
+        text = oldtext.replace("[["+oldurl, "[[" + newurl )
+        text = text.replace("[["+oldurl_w, "[[" + newurl)
+        p.text = text
+        p.save(minor=True, botflag=True)
+
 
 
 def main():
