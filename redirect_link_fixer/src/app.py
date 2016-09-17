@@ -1,12 +1,20 @@
 # -*- coding: utf-8 -*-
+import wtlpywikibot
 import pywikibot
 import pywikibot.pagegenerators as pg
 import sys
 import os
 import re
 import time
+import yaml
 
 config = __import__("user-config")
+
+stream = open('config.yaml', 'r')
+config = yaml.load(stream, Loader=yaml.Loader)
+lang = config["pywikibot"]["lang"]
+user = config["pywikibot"]["user"]
+passw = config["pywikibot"]["password"]
 
 
 def fix_links(red, backpages):
@@ -31,13 +39,9 @@ def get_regex(title):
 
 
 def main():
-    print("Connecting to " + config.mylang + \
-          " domain for the " + config.family + " family")
-    site = pywikibot.Site()
-    site.login()
-
-    BASE_SITE = site.family.langs[config.mylang]
-    print("Base URL: " + BASE_SITE)
+    site = pywikibot.Site(lang, "wikitolearn")
+    wtlpywikibot.login(site,user,passw)
+    print("Lang: " + lang +)
 
     for red in pg.RedirectFilterPageGenerator(
         pg.AllpagesPageGenerator(site=site, step=10), no_redirects=False):
