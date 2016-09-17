@@ -6,4 +6,5 @@ WORKDIR /opt/
 
 ENV PYTHONUNBUFFERED=0
 
-ENTRYPOINT /opt/app.py
+ENTRYPOINT python /opt/app.py
+

@@ -8,7 +8,6 @@ import re
 import time
 import yaml
 
-config = __import__("user-config")
 
 stream = open('config.yaml', 'r')
 config = yaml.load(stream, Loader=yaml.Loader)
@@ -41,7 +40,7 @@ def get_regex(title):
 def main():
     site = pywikibot.Site(lang, "wikitolearn")
     wtlpywikibot.login(site,user,passw)
-    print("Lang: " + lang +)
+    print("Lang: " + lang )
 
     for red in pg.RedirectFilterPageGenerator(
         pg.AllpagesPageGenerator(site=site, step=10), no_redirects=False):
@@ -51,3 +50,6 @@ def main():
             fix_links(red, pages_to_check)
             #deleting Redirect
             #red.delete(reason="migration done", prompt=False, mark=False)
+
+if __name__ == "__main__":
+	main()
