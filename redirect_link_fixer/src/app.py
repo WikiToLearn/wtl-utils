@@ -26,7 +26,6 @@ def fix_links(red, backpages):
         text = p.text[:]
         for m in r.finditer(p.text):
             text = text.replace(m.group(0), "[["+ newurl)
-            print(m.group(0))
         p.text = text
         p.save(minor=True, botflag=True, async= True)
 
@@ -48,7 +47,6 @@ def main():
         pages_to_check = list(pg.ReferringPageGenerator(red, withTemplateInclusion=False))
         if len(pages_to_check)>0:
             fix_links(red, pages_to_check)
-            red.add
             #deleting Redirect
             red.text += "[[Category:ToDelete]]"
             red.save(minor=True, botflag=True, async= True)
