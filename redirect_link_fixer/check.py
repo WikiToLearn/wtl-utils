@@ -11,13 +11,15 @@ config = __import__("user-config")
 
 def fix_links(red, backpages):
     oldurl = red.title()
-    newurl = red.getRedirectTarget().title()
+    oldurl_w = oldurl.replace("_", " ")
+    newurl = red.getRedirectTarget().title().replace("_"," ")
     print(">>>new url: ", newurl)
     for p in backpages:
         print(">>>fixing page: ",p.title())
         oldtext = p.text
-        text = oldtext.replace("[["+oldurl+, "[[" + newurl )
-        if (oldtext != text):
+        text = oldtext.replace("[["+oldurl+"]]", "[[" + newurl + "]]")
+        text = oldtext.replace("[["+oldurl_w+"]]", "[[" + newurl + "]]")
+        if (len(oldtext)!=len(text)):
             p.text = text
             p.save()
 
@@ -27,7 +29,6 @@ def main():
           " domain for the " + config.family + " family")
     site = pywikibot.Site()
     site.login()
-    site.throttle.setDelays(1,1,True)
 
     BASE_SITE = site.family.langs[config.mylang]
     print("Base URL: " + BASE_SITE)
