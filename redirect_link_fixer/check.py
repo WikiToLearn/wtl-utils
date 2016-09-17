@@ -11,17 +11,23 @@ config = __import__("user-config")
 
 def fix_links(red, backpages):
     oldurl = red.title()
-    oldurl_w = oldurl.replace("_", " ")
-    newurl = red.getRedirectTarget().title().replace("_"," ")
+    newurl = red.getRedirectTarget().title()
     print(">>>new url: ", newurl)
+    r = get_regex(oldurl)
     for p in backpages:
         print(">>>fixing page: ",p.title())
-        oldtext = p.text[:]
-        text = oldtext.replace("[["+oldurl, "[[" + newurl )
-        text = text.replace("[["+oldurl_w, "[[" + newurl)
+        text = p.text[:]
+        for m in r.finditer(p.text):
+            text = text.replace(m.group(0), "[["+ newurl)
+            print(m.group(0))
         p.text = text
         p.save(minor=True, botflag=True)
 
+def get_regex(title):
+    title = title.replace(" ", "_")
+    rstring = "[_ ]".join(title.split("_"))
+    rstring = rstring.replace("//","////")
+    return re.compile("\\[\\[" + rstring)
 
 
 def main():
