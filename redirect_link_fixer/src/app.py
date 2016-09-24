@@ -48,9 +48,9 @@ def main():
                                                         withTemplateInclusion=False))
         if len(pages_to_check)>0:
             fix_links(red, pages_to_check)
-            #deleting Redirect
-            red.text += "[[Category:ToDelete]]"
-            red.save(minor=True, botflag=True, async= True)
+        #deleting Redirect
+        red.text += "[[Category:ToDelete]]"
+        red.save(minor=True, botflag=True, async= True)
 
 if __name__ == "__main__":
 	main()
