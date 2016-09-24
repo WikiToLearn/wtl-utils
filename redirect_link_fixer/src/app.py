@@ -44,7 +44,8 @@ def main():
     for red in pg.RedirectFilterPageGenerator(
         pg.AllpagesPageGenerator(site=site, step=10), no_redirects=False):
         print("> ",red.title())
-        pages_to_check = list(pg.ReferringPageGenerator(red, withTemplateInclusion=False))
+        pages_to_check = list(pg.ReferringPageGenerator(red, followRedirects=True,
+                                                        withTemplateInclusion=False))
         if len(pages_to_check)>0:
             fix_links(red, pages_to_check)
             #deleting Redirect
