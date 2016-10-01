@@ -21,7 +21,7 @@ def main():
     site = pywikibot.Site(lang, "wikitolearn")
     wtlpywikibot.login(site,user,passw)
     print("Lang: " + lang )
-    for p in pg.AllpagesPageGenerator(start="E", namespace=2800, site=site, step=10):
+    for p in pg.AllpagesPageGenerator(namespace=2800, site=site, step=10):
         print("> ",p.title())
         n = p.text.find("{{noprint-pdf|")
         if n != -1:

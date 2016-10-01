@@ -14,6 +14,7 @@ config = yaml.load(stream, Loader=yaml.Loader)
 lang = config["pywikibot"]["lang"]
 user = config["pywikibot"]["user"]
 passw = config["pywikibot"]["password"]
+namespace = config["namespace"]
 
 
 def fix_links(red, backpages):
@@ -26,8 +27,9 @@ def fix_links(red, backpages):
         text = p.text[:]
         for m in r.finditer(p.text):
             text = text.replace(m.group(0), "[["+ newurl)
-        p.text = text
-        p.save(minor=True, botflag=True, async= True)
+        if p.text != text:
+            p.text = text
+            p.save(minor=True, botflag=True, async= True)
 
 def get_regex(title):
     title = title.replace(" ", "_")
@@ -42,7 +44,8 @@ def main():
     print("Lang: " + lang )
 
     for red in pg.RedirectFilterPageGenerator(
-        pg.AllpagesPageGenerator(site=site, step=10), no_redirects=False):
+        pg.AllpagesPageGenerator(site=site, step=10,namespace=namespace),
+            no_redirects=False):
         print("> ",red.title())
         pages_to_check = list(pg.ReferringPageGenerator(red, followRedirects=True,
                                                         withTemplateInclusion=False))
