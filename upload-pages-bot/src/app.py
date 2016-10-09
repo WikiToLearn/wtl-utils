@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-import ssl
-print(ssl._create_unverified_context)
-ssl._create_default_https_context = ssl._create_unverified_context # WHY ERROR?
-
 import wtl
 import wtlpywikibot
 import pywikibot
