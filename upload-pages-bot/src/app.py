@@ -4,13 +4,16 @@ import wtlpywikibot
 import pywikibot
 import os
 import os.path
+import time
 
 config = wtl.load_config(config_dir="/etc/upload-pages-bot/")
 username=config['username']
 password=config['password']
 rootpage=config['rootpage']
-if not rootpage.endswith('/'):
+if rootpage != False and not rootpage.endswith('/'):
     rootpage = rootpage + "/"
+elif isinstance(rootpage,bool):
+    rootpage = ""
 
 site = wtlpywikibot.site(config['lang'])
 try:
@@ -28,6 +31,10 @@ try:
 
     for page_title in pages:
         print("Page: {}".format(page_title))
+    print()
+    print()
+    print()
+    time.sleep(5)
 
     if len(pages) > 0:
         wtlpywikibot.login(site,username,password)
