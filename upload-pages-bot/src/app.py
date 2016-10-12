@@ -22,7 +22,7 @@ try:
     for path, subdirs, files in os.walk(root_dir):
         for name in files:
             filename = os.path.join(path, name)
-            if os.path.splitext(filename)[1]==".page":
+            if os.path.splitext(filename)[1]==".mw":
                 page_title = os.path.splitext(filename)[0][(len(root_dir)):]
                 pages[rootpage+page_title] = None
                 with open(filename, 'r') as input_file:
