@@ -20,7 +20,7 @@ category = config["category"]
 
 def main():
     site = pywikibot.Site(lang, "wikitolearn")
-    wtlpywikibot.login(site,user,passw)
+    wtlpywikibot.login(site,user,passw, sysop=True)
     print("Lang: " + lang )
 
     cat = pywikibot.Category(site, category)
