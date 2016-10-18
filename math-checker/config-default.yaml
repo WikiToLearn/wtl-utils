@@ -1,0 +1,5 @@
+checktype: local/remote
+# if checktype is remote you can also set
+lang: <wikitolearn site>
+rootpage: <root page to check>
+includesubpages: yes/no
