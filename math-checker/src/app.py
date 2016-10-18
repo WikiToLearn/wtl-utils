@@ -26,3 +26,24 @@ if config['checktype'] == "local":
                             print(e)
     else:
         print("Missing input/ dir")
+
+if config['checktype'] == "remote":
+    site = pywikibot.Site(config['lang'],'wikitolearn')
+    pages_to_check = []
+    root_page = pywikibot.Page(site,config['rootpage'])
+    pages_to_check.append(root_page)
+    if config['includesubpages']:
+        for all_page_item in site.allpages(namespace=root_page.namespace()):
+            if all_page_item.title().startswith(root_page.title()) and \
+                all_page_item.title() != root_page.title():
+                pages_to_check.append(all_page_item)
+
+    for page_to_check in pages_to_check:
+        print("Check for {}".format(page_to_check.title()))
+        for math in wtlpywikibot.extract_math(page_to_check.text):
+            print("Formula:")
+            print(math)
+            try:
+                print("Status: {}".format(wtlpywikibot.check_formula(site,math)))
+            except Exception as e:
+                print(e)
