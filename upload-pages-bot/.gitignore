@@ -1,3 +1,4 @@
-!/input/.placeholder
-/input/
+/input
+!/sandbox/.placeholder
+/sandbox/
 /config.yaml
