@@ -14,6 +14,11 @@ Hence, if you are willing to use this bot you have to:
     mv $directory_name input
     ./upload.sh
 
+Keep your symlinks in the sandbox directory, so that you can quickly access them 
+afterwards
+    cp -P input sandbox
+    mv sandbox/input sandbox/description-of-the-symlink
+
 This bot uses a docker, so you must have a working docker engine
 installed on your system.
 
