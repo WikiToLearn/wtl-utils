@@ -1,35 +1,24 @@
 # -*- coding: utf-8 -*-
+import wtlpywikibot
 import pywikibot
+import pywikibot.pagegenerators as pg
 import sys
 import os
+import yaml
 import re
 import time
 import requests
 
-config = __import__("user-config")
+
+stream = open('config.yaml', 'r')
+config = yaml.load(stream, Loader=yaml.Loader)
+lang = os.environ.get('PYWIKIBOT_LANG')
+user = config["pywikibot"]["user"]
+passw = config["pywikibot"]["password"]
+
+
 current_page = ''
 n_page = 0
-
-def main(lang):
-    print("Connecting to " + config.mylang + \
-          " domain for the " + config.family + " family")
-    site = pywikibot.Site()
-    site.login()
-
-    BASE_SITE = site.family.langs[config.mylang]
-    print("Base URL: " + BASE_SITE)
-
-    checkedPages = 0
-    print("Checking all pages")
-    for page in site.allpages(step=30):
-        global current_page
-        current_page =  page.title()
-        print("\n@page: " + current_page + "")
-        check_page(page,lang)
-        checkedPages+=1
-        global n_page
-        n_page+=1
-    print("Checked " + str(checkedPages) + " pages")
 
 def check_page(page,lang):
     r = re.compile('<\s*math\s*(type=\s*"?block"?)?\s*>(?P<math>.*?)</math>', re.DOTALL)
@@ -59,3 +48,25 @@ def request_formula(tex,lang):
         print("\t\tRendering mml: " ,r_mathml.status_code)
     else:
         print("\t\tPage rendering error: ", r.status_code)
+
+
+def main():
+    site = pywikibot.Site(lang, "wikitolearn")
+    wtlpywikibot.login(site,user,passw)
+    print("Lang: " + lang )
+
+    checkedPages = 0
+    print("Checking all pages")
+    for page in pg.AllpagesPageGenerator(site=site, step=30,namespace=2800):
+        global current_page
+        current_page =  page.title()
+        print("\n@page: " + current_page + "")
+        check_page(page,lang)
+        checkedPages+=1
+        global n_page
+        n_page+=1
+    print("Checked " + str(checkedPages) + " pages")
+
+
+if __name__ == "__main__":
+	main()

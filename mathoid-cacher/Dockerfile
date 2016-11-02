@@ -1,13 +1,9 @@
-FROM wikitolearn/pywikibot:0.1.8
+FROM wikitolearn/pywikibot:0.3.2
+RUN pip install pyyaml
 
-MAINTAINER wikitolearn sysadmin@wikitolearn.org
-ENV DEBIAN_FRONTEND noninteractive
-ENV DEBCONF_NONINTERACTIVE_SEEN true
+ADD ./src/ /opt/
+WORKDIR /opt/
 
-ADD ./run.py /w2lbot/
-ADD ./check.py /w2lbot/
+ENV PYTHONUNBUFFERED=0
 
-WORKDIR /w2lbot/
-RUN pip install requests
-
-CMD ["python","run.py"]
+ENTRYPOINT python /opt/app.py
