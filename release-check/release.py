@@ -42,7 +42,7 @@ for subdomain in subdomains:
 
             status = True
             for label in ['activeusers','admins','articles','edits','images','jobs','pages','users']:
-                partial_status = statistics[label] == statistics_old[label]
+                partial_status = statistics[label] >= statistics_old[label]
                 if not partial_status:
                     print("{}: {} = {} ({})".format(label,statistics[label],statistics_old[label],partial_status))
                 status = status and partial_status
