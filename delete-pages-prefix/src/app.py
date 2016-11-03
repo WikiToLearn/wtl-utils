@@ -24,8 +24,9 @@ def main():
     print("Lang: " + lang )
 
     for p in pg.PrefixingPageGenerator(prefix, namespace=namespace, site = site):
-        print("Deleting page: {}".format(p.title()))
-        p.delete("Mass delete", prompt=False)
+        if p.exists():
+            print("Deleting page: {}".format(p.title()))
+            p.delete("Mass delete", prompt=False)
 
 if __name__ == "__main__":
 	main()
