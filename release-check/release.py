@@ -49,7 +49,7 @@ for subdomain in subdomains:
             print("\tStatus stats: {}".format(status))
             global_status = global_status and status
 
-    response = requests.get("https://{}{}/api.php?action=query&list=recentchanges&rcprop=title%7Cids%7Csizes%7Cflags%7Cuser&rclimit=50&format=json".format(subdomain,domain))
+    response = requests.get("https://{}{}/api.php?action=query&list=recentchanges&rcprop=title%7Cids%7Csizes%7Cflags%7Cuser&rclimit=100&format=json".format(subdomain,domain))
     if 'Content-Type' in response.headers and response.headers['Content-Type']=="application/json; charset=utf-8":
         file_name = data_dir+subdomain+domain+"-changes.json"
         if first_run:
@@ -62,10 +62,21 @@ for subdomain in subdomains:
                 old_data = json.load(old_file)
                 old_file.close()
 
-            recentchanges_new = response.json()['query']['recentchanges']
-            recentchanges_old = old_data['query']['recentchanges']
+            recentchanges_new = []
+            for c in response.json()['query']['recentchanges']:
+                if c['user']!="Maintenance script":
+                    recentchanges_new.append(c)
+
+            recentchanges_old = []
+            for c in old_data['query']['recentchanges']:
+                if c['user']!="Maintenance script":
+                    recentchanges_old.append(c)
+
             status_changed = True
-            for i in range(0,len(recentchanges_new)):
+            for i in range(0,min([
+                                    len(recentchanges_new),
+                                    len(recentchanges_old),
+                                ])):
                 status = True
                 for key in recentchanges_new[i]:
                     val_old = None
