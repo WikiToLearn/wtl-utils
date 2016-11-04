@@ -11,7 +11,7 @@ import yaml
 
 stream = open('config.yaml', 'r')
 config = yaml.load(stream, Loader=yaml.Loader)
-langs = config["pywikibot"]["lang"]
+lang = config["pywikibot"]["lang"]
 user = config["pywikibot"]["user"]
 passw = config["pywikibot"]["password"]
 namespace = config["namespace"]
