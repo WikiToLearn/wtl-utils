@@ -9,7 +9,7 @@ import time
 import yaml
 
 
-stream = open('config.yaml', 'r')
+stream = open('/etc/delete-pages-prefix/config.yaml', 'r')
 config = yaml.load(stream, Loader=yaml.Loader)
 lang = config["pywikibot"]["lang"]
 user = config["pywikibot"]["user"]
