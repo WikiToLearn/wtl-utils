@@ -16,6 +16,12 @@ elif isinstance(rootpage,bool):
     rootpage = ""
 
 site = wtlpywikibot.site(config['lang'])
+print()
+print("Upload Information")
+print("------------------")
+print()
+print("Site: " + config['lang'] )
+
 try:
     pages = {}
     root_dir="/opt/input/"
