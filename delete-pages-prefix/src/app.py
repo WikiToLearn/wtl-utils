@@ -21,6 +21,10 @@ prefix = config["prefix"]
 def main():
     site = pywikibot.Site(lang, "wikitolearn")
     wtlpywikibot.login(site,user,passw, sysop=True)
+    print()
+    print("Deleting pages")
+    print("--------------")
+    print()
     print("Lang: " + lang )
 
     for p in pg.PrefixingPageGenerator(prefix, namespace=namespace, site = site):
