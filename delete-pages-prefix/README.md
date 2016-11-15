@@ -23,3 +23,34 @@ is a `config-template.yaml` that contains the scehme of the config file.
 
 `./delete-pages-prefix.sh` both build and run the docker, loading the config file dynamincally, so you have to build the container just once. 
 Please note that the first time you run this it may take some time, since it has to pull the wikitolearn/pywikibot docker image
+
+## Examples
+
+If the file `config.yaml` is
+```
+pywikibot :
+    lang: testen
+    user: UserName
+    password: UserPass
+namespace: Course
+prefix: Complex_Analysis_(Intermediate_Level)/Cauchy's Theorem and its Consequences
+```
+
+then the bot delete the following pages
+
+> Lang: testen
+> Deleting page: Course:Complex Analysis (Intermediate Level)/Cauchy's Theorem and its Consequences
+> Sleeping for 7.1 seconds, 2016-11-15 11:47:27
+> Deleting page: Course:Complex Analysis (Intermediate Level)/Cauchy's Theorem and its Consequences/Cauchy's Theorem for a disc
+> Sleeping for 9.8 seconds, 2016-11-15 11:47:34
+> Deleting page: Course:Complex Analysis (Intermediate Level)/Cauchy's Theorem and its Consequences/Cauchy Integral Formula
+> Sleeping for 9.8 seconds, 2016-11-15 11:47:44
+> Deleting page: Course:Complex Analysis (Intermediate Level)/Cauchy's Theorem and its Consequences/Compact sets
+> Sleeping for 9.8 seconds, 2016-11-15 11:47:54
+> Deleting page: Course:Complex Analysis (Intermediate Level)/Cauchy's Theorem and its Consequences/Generalities on piecewise C^1 curves
+> Sleeping for 9.7 seconds, 2016-11-15 11:48:04
+> Deleting page: Course:Complex Analysis (Intermediate Level)/Cauchy's Theorem and its Consequences/Holomorphic functions defined by integrals
+> Sleeping for 9.8 seconds, 2016-11-15 11:48:14
+> Deleting page: Course:Complex Analysis (Intermediate Level)/Cauchy's Theorem and its Consequences/The Fundamental Theorem of Calculus and its converse
+> Sleeping for 9.8 seconds, 2016-11-15 11:48:24
+
