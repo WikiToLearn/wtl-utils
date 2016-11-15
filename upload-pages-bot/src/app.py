@@ -16,6 +16,7 @@ elif isinstance(rootpage,bool):
     rootpage = ""
 
 site = wtlpywikibot.site(config['lang'])
+wtlpywikibot.login(site,username,password)
 print()
 print("Upload Information")
 print("------------------")
@@ -43,7 +44,7 @@ try:
     time.sleep(5)
 
     if len(pages) > 0:
-        wtlpywikibot.login(site,username,password)
+#        wtlpywikibot.login(site,username,password)
         for page_title in pages:
             page = pywikibot.Page(site,page_title)
             if page.text.strip() != pages[page_title].strip():
