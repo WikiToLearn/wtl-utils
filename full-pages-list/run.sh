@@ -1,4 +1,9 @@
 #!/bin/bash
+if test ! -f $(pwd)/config.yaml
+then
+  echo "Missing config.yaml file"
+  exit 1
+fi
 docker build -t wikitolearn/full-pages-list .
 if test ! -d output
 then
