@@ -1,0 +1,93 @@
+#### Translations:
+Translations:Frequently Asked Questions/1/en
+Translations:Frequently Asked Questions/1/it
+Translations:Frequently Asked Questions/10/en
+Translations:Frequently Asked Questions/10/it
+Translations:Frequently Asked Questions/11/en
+Translations:Frequently Asked Questions/11/it
+Translations:Frequently Asked Questions/12/en
+Translations:Frequently Asked Questions/12/it
+Translations:Frequently Asked Questions/13/en
+Translations:Frequently Asked Questions/13/it
+Translations:Frequently Asked Questions/14/en
+Translations:Frequently Asked Questions/14/it
+Translations:Frequently Asked Questions/15/en
+Translations:Frequently Asked Questions/15/it
+Translations:Frequently Asked Questions/16/en
+Translations:Frequently Asked Questions/16/it
+Translations:Frequently Asked Questions/17/en
+Translations:Frequently Asked Questions/17/it
+Translations:Frequently Asked Questions/18/en
+Translations:Frequently Asked Questions/18/it
+Translations:Frequently Asked Questions/19/en
+Translations:Frequently Asked Questions/19/it
+Translations:Frequently Asked Questions/2/en
+Translations:Frequently Asked Questions/2/it
+Translations:Frequently Asked Questions/20/en
+Translations:Frequently Asked Questions/20/it
+Translations:Frequently Asked Questions/21/en
+Translations:Frequently Asked Questions/21/it
+Translations:Frequently Asked Questions/22/en
+Translations:Frequently Asked Questions/22/it
+Translations:Frequently Asked Questions/23/en
+Translations:Frequently Asked Questions/23/it
+Translations:Frequently Asked Questions/24/en
+Translations:Frequently Asked Questions/24/it
+Translations:Frequently Asked Questions/25/en
+Translations:Frequently Asked Questions/25/it
+Translations:Frequently Asked Questions/26/en
+Translations:Frequently Asked Questions/26/it
+Translations:Frequently Asked Questions/3/en
+Translations:Frequently Asked Questions/3/it
+Translations:Frequently Asked Questions/4/en
+Translations:Frequently Asked Questions/4/it
+Translations:Frequently Asked Questions/5/en
+Translations:Frequently Asked Questions/5/it
+Translations:Frequently Asked Questions/6/en
+Translations:Frequently Asked Questions/6/it
+Translations:Frequently Asked Questions/7/en
+Translations:Frequently Asked Questions/7/it
+Translations:Frequently Asked Questions/8/en
+Translations:Frequently Asked Questions/8/it
+Translations:Frequently Asked Questions/9/en
+Translations:Frequently Asked Questions/9/it
+Translations:Frequently Asked Questions/Page display title/en
+Translations:Frequently Asked Questions/Page display title/it
+Translations:What is WikiToLearn?/1/en
+Translations:What is WikiToLearn?/1/it
+Translations:What is WikiToLearn?/2/en
+Translations:What is WikiToLearn?/2/it
+Translations:What is WikiToLearn?/3/en
+Translations:What is WikiToLearn?/3/it
+Translations:What is WikiToLearn?/4/en
+Translations:What is WikiToLearn?/4/it
+Translations:What is WikiToLearn?/5/en
+Translations:What is WikiToLearn?/5/it
+Translations:What is WikiToLearn?/6/en
+Translations:What is WikiToLearn?/6/it
+Translations:What is WikiToLearn?/7/en
+Translations:What is WikiToLearn?/7/it
+Translations:What is WikiToLearn?/Page display title/en
+Translations:What is WikiToLearn?/Page display title/it
+Translations:WikiToLearn Manual/Structure/1/en
+Translations:WikiToLearn Manual/Structure/1/it
+Translations:WikiToLearn Manual/Structure/2/en
+Translations:WikiToLearn Manual/Structure/2/it
+Translations:WikiToLearn Manual/Structure/3/en
+Translations:WikiToLearn Manual/Structure/3/it
+Translations:WikiToLearn Manual/Structure/Page display title/en
+Translations:WikiToLearn Manual/Structure/Page display title/it
+Translations:WikiToLearn Manual/WikiToLearn terminology/1/en
+Translations:WikiToLearn Manual/WikiToLearn terminology/1/it
+Translations:WikiToLearn Manual/WikiToLearn terminology/2/en
+Translations:WikiToLearn Manual/WikiToLearn terminology/2/it
+Translations:WikiToLearn Manual/WikiToLearn terminology/3/en
+Translations:WikiToLearn Manual/WikiToLearn terminology/3/it
+Translations:WikiToLearn Manual/WikiToLearn terminology/4/en
+Translations:WikiToLearn Manual/WikiToLearn terminology/4/it
+Translations:WikiToLearn Manual/WikiToLearn terminology/5/en
+Translations:WikiToLearn Manual/WikiToLearn terminology/5/it
+Translations:WikiToLearn Manual/WikiToLearn terminology/6/en
+Translations:WikiToLearn Manual/WikiToLearn terminology/6/it
+Translations:WikiToLearn Manual/WikiToLearn terminology/Page display title/en
+Translations:WikiToLearn Manual/WikiToLearn terminology/Page display title/it

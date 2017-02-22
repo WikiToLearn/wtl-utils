@@ -1,0 +1,83 @@
+#### Template:
+Template:...
+Template:AddCourseInDepartment
+Template:AddCourseInTopic
+Template:Archive for converted LQT page
+Template:Archive for converted wikitext talk page
+Template:Badgeimported
+Template:Badgereviewed
+Template:Basic-Bibliography
+Template:Basic-Course
+Template:Basic-Description
+Template:Basic-Example
+Template:Basic-Notes
+Template:Basic-Observation
+Template:Basic-Proof
+Template:Basic-Quote
+Template:Basic-Reference
+Template:Basic-Topic
+Template:Basic-Workgroup
+Template:BeginAxiom
+Template:BeginCorollary
+Template:BeginDefinition
+Template:BeginExample
+Template:BeginExercise
+Template:BeginLemma
+Template:BeginNote
+Template:BeginProof
+Template:BeginProposition
+Template:BeginRemark
+Template:BeginTheorem
+Template:Center
+Template:Citation
+Template:Corollary
+Template:Course
+Template:CourseBackend
+Template:CourseLevel
+Template:CourseLevelTwo
+Template:CourseRoot
+Template:Definition
+Template:DeleteMe
+Template:Deleteme
+Template:EndAxiom
+Template:EndCorollary
+Template:EndDefinition
+Template:EndExample
+Template:EndExercise
+Template:EndLemma
+Template:EndNote
+Template:EndProof
+Template:EndProposition
+Template:EndRemark
+Template:EndTheorem
+Template:Environment
+Template:Example
+Template:FloatingSection
+Template:FlowMention
+Template:Flushleft
+Template:Flushright
+Template:ForceBreak
+Template:GetCourseMetadata
+Template:HighlightedSection
+Template:I18n
+Template:ImportedBadge
+Template:Infobox
+Template:LQT Moved thread stub converted to Flow
+Template:LQT page converted to Flow
+Template:LQT post imported with different signature user
+Template:LQT post imported with supressed user
+Template:Lemma
+Template:Noprint-pdf
+Template:Notes
+Template:Proof
+Template:ReadyToBePublished
+Template:Reference
+Template:Remark
+Template:ReviewedBadge
+Template:Section
+Template:SmallBox
+Template:Stage
+Template:Theorem
+Template:Topic
+Template:WarningBox
+Template:Wikitext talk page converted to Flow

@@ -1,0 +1,295 @@
+#### :
+Algebra
+Algebra I (Disambigua)
+Algebra Lineare (Disambigua)
+Algebra Superiore Hold on
+Algebra Triennale
+Algoritmica
+Altro materiale scientifico
+Analisi I
+Analisi II
+Analisi complessa (Disambigua)
+Analysis tools
+Apprendimento Pensiero e Decisione WtoL
+Architettura degli elaboratori (Disambigua)
+Astrofisica (Disambigua)
+Basi di Dati (Disambigua)
+Biologia e Biotecnologie
+C++
+C++/Basics to begin with
+C++/Introduction
+C++/The C++ compiler
+C++/The pre-processor
+Calcolo Differenziale (Disambigua)
+Calcolo Integrale (Disambigua)
+Calcolo delle probabilità
+Calcolo delle probabilità (Disambigua)
+Calcolo differenziale a una variabile per la fisica
+Campi elettromagnetici in ingegneria delle telecomunicazioni (Disambigua)
+Chi Siamo
+Chimica
+Come aiutare/Hacker
+Come aiutare/Insegnante
+Come aiutare/Partecipa
+Come aiutare/Professore
+Come aiutare/Studente
+Come aiutare/Traduttore
+Compiled languages
+Containers
+Cosmologia (Disambigua)
+Data Structures
+Economia
+Economia e Diritto
+Economia e politica agroalimentare
+Economia internazionale
+Elettrodinamica (Disambigua)
+Elettrostatica (Disambigua)
+Equazioni Differenziali (Disambigua)
+Equazioni alle derivate parziali/L'equazione delle onde sul disco
+Equazioni alle derivate parziali/L'equazione di Fourier e l'equazione del calore
+Equazioni differenziali alle derivate parziali (Disambigua)
+Ex1.cc
+Ex2.cc
+Ex3.cc
+Ex4.cc
+Ex5.cc
+Ex6.cc
+Fisica
+Fisica 5° liceo scientifico
+Fisica Nucleare e Subnucleare (Disambigua)
+Fisica dei semiconduttori (Disambigua)
+Fisica moderna (Disambigua)
+Fondamenti di automatica (Disambigua)
+Fondamenti di comunicazioni (Disambigua)
+Fondamenti di informatica (Disambigua)
+Funzioni reali, serie e successioni (Disambigua)
+Geologia
+Git
+Gravitazione (Disambigua)
+Guida a WikiToLearn
+Guida a WikiToLearn/Aggiungere materiale LaTeX su WikiToLearn
+Guida a WikiToLearn/Convenzioni
+Guida a WikiToLearn/Cos'è WikiToLearn?
+Guida a WikiToLearn/Elenco dei Template
+Guida a WikiToLearn/La matematica
+Guida a WikiToLearn/Raccolte
+Guida a WikiToLearn/Ricerca di materiale
+Guida a WikiToLearn/Scrivere in linguaggio Wiki
+Guida a WikiToLearn/Stile dell'editing
+Guida a WikiToLearn/Terminologia di WikiToLearn
+Hacker
+Http://en.wikitolearn.org/Computer Science/Elements of Operating Systems
+Http://en.wikitolearn.org/Computer Science/Elements of Operating Systems/Linux (an introduction)
+Infiammazione e Immunità Innata
+Informatica
+Ingegneria
+Insegnante
+Istituzioni Analisi
+Java (Disambigua)
+La messinscena teatrale e urbana
+Lab Calcolo Numerico
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Esercizi
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Esercizi/Disegnare grafici
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Esercizi/Grafici sovrapposti
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Esercizi/Numeri di Fibonacci
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Esercizi/Sequenza di somme
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Esercizi/Serie di numeri
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Esercizi/Somma con o senza "for"
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Lezione
+Lab Calcolo Numerico/Approfondimento sull'uso di Matlab/Lezione/Esempi
+Lab Calcolo Numerico/Fattorizzazione QR
+Lab Calcolo Numerico/Fattorizzazione QR/Esercizi
+Lab Calcolo Numerico/Fattorizzazione QR/Esercizi/Errore in un sistema di Henkel
+Lab Calcolo Numerico/Fattorizzazione QR/Lezione
+Lab Calcolo Numerico/Fattorizzazione QR/Lezione/Algoritmo per calcolo rango con LU e QR
+Lab Calcolo Numerico/Fattorizzazione QR/Lezione/Algoritmo per la fattorizzazione
+Lab Calcolo Numerico/Fattorizzazione QR/Lezione/Algoritmo per risoluzione di sistemi lineari
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Esercizi
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Esercizi/Errore in un sistema con matrice di Henkel
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Esercizi/Errore in un sistema lineare
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Esercizi/Errore relativo con diversi pivot
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Esercizi/Risoluzione di un sistema lineare
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Lezione
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Lezione/Gauss con pivot totale
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Lezione/Gauss senza pivot
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Lezione/Risoluzione di equazione di matrici
+Lab Calcolo Numerico/Fattorizzazione di Gauss e di Cholescky/Lezione/Risoluzione di un sistema lineare
+Lab Calcolo Numerico/Formule di quadratura
+Lab Calcolo Numerico/Formule di quadratura/Esercizi
+Lab Calcolo Numerico/Formule di quadratura/Esercizi/Errore di integrazione
+Lab Calcolo Numerico/Formule di quadratura/Lezione
+Lab Calcolo Numerico/Formule di quadratura/Lezione/Algoritmo del metodo dei trapezi
+Lab Calcolo Numerico/Formule di quadratura/Lezione/Algoritmo del metodo di Simpson
+Lab Calcolo Numerico/Generalità sull'uso di Matlab
+Lab Calcolo Numerico/Generalità sull'uso di Matlab/Esercizi
+Lab Calcolo Numerico/Generalità sull'uso di Matlab/Lezione
+Lab Calcolo Numerico/Matrici in Matlab
+Lab Calcolo Numerico/Matrici in Matlab/Esercizi
+Lab Calcolo Numerico/Matrici in Matlab/Esercizi/Errore in un sistema lineare
+Lab Calcolo Numerico/Matrici in Matlab/Esercizi/Esecuzione di cond e condest
+Lab Calcolo Numerico/Matrici in Matlab/Lezione
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Esercizi
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Esercizi/Errore su radici del polinomio perturbato
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Esercizi/Funzione di esempio
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Lezione
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Lezione/Algoritmo del metodo delle contrazioni
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Lezione/Algoritmo del metodo delle secanti
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Lezione/Algoritmo del metodo di Newton
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Lezione/Algoritmo del metodo di Newton per radici multiple
+Lab Calcolo Numerico/Metodi di bisezione, Newton e secanti/Lezione/Algoritmo del metodo di bisezione
+Lab Calcolo Numerico/Metodi espliciti ed impliciti per il problema di Cauchy
+Lab Calcolo Numerico/Metodi espliciti ed impliciti per il problema di Cauchy/Esercizi
+Lab Calcolo Numerico/Metodi espliciti ed impliciti per il problema di Cauchy/Esercizi/Caduta in un fluido
+Lab Calcolo Numerico/Metodi espliciti ed impliciti per il problema di Cauchy/Esercizi/Confronto tra metodi
+Lab Calcolo Numerico/Metodi espliciti ed impliciti per il problema di Cauchy/Esercizi/Funzioni varie
+Lab Calcolo Numerico/Metodi espliciti ed impliciti per il problema di Cauchy/Esercizi/Problema volpi-conigli
+Lab Calcolo Numerico/Metodi espliciti ed impliciti per il problema di Cauchy/Lezione
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Esercizi
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Esercizi/Function: generazione di matrici sparse
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Esercizi/Function: tempo di risoluzione per sparse con Jacobi
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Esercizi/Function: tempo di risoluzione per sparse con Jacobi e Gauss
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Lezione
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Lezione/Algoritmo di Gauss-Seidel
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Lezione/Algoritmo di Jacobi
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Lezione/Algoritmo di Jacobi con permutazione
+Lab Calcolo Numerico/Metodi ricorsivi di Jacobi e Gauss-Seidel/Lezione/Algoritmo di Jacobi per matrici sparse
+Lab Calcolo Numerico/Metodo delle potenze
+Lab Calcolo Numerico/Metodo delle potenze/Esercizi
+Lab Calcolo Numerico/Metodo delle potenze/Lezione
+Lab Calcolo Numerico/Metodo delle potenze/Lezione/Algoritmo metodo delle potenze
+Lab Calcolo Numerico/Metodo delle potenze/Lezione/Algoritmo metodo delle potenze inverse
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Errore di interpolazione
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Esercizi
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Esercizi/Confronto tra spline
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Esercizi/Costante di Lebesgue
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Esercizi/Errore su un polinomio
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Esercizi/Scelta dei nodi
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Lezione
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Lezione/Grafici
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Lezione/Interpolazione polinomiale a scelta
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Lezione/Interpolazione tramite Lagrange
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Lezione/Interpolazione tramite Newton
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Lezione/Polinomio di Lagrange
+Lab Calcolo Numerico/Metodo di Lagrange, di Newton e spline/Lezione/Valutare il polinomio tramite Horner
+Lab Calcolo Numerico/Metodo di Newton per sistemi non lineari
+Lab Calcolo Numerico/Metodo di Newton per sistemi non lineari/Esercizi
+Lab Calcolo Numerico/Metodo di Newton per sistemi non lineari/Esercizi/Confronto metodo di Newton puro e approssimato
+Lab Calcolo Numerico/Metodo di Newton per sistemi non lineari/Esercizi/Esempio di sistema e jacobiano
+Lab Calcolo Numerico/Metodo di Newton per sistemi non lineari/Lezione
+Lab Calcolo Numerico/Metodo di Newton per sistemi non lineari/Lezione/Algoritmo del metodo di Newton approssimato per FD
+Lab Calcolo Numerico/Metodo di Newton per sistemi non lineari/Lezione/Algoritmo del metodo di Newton per sistemi non lineari
+Lab Calcolo Numerico/Metodo di rilassamento successivo
+Lab Calcolo Numerico/Metodo di rilassamento successivo/Esercizi
+Lab Calcolo Numerico/Metodo di rilassamento successivo/Esercizi/Script: confronto tra metodi con rilassamento successivo
+Lab Calcolo Numerico/Metodo di rilassamento successivo/Esercizi/Script: omega ottimale ed errore analitico
+Lab Calcolo Numerico/Metodo di rilassamento successivo/Lezione
+Lab Calcolo Numerico/Metodo di rilassamento successivo/Lezione/Algoritmo di rilassamento successivo con matrici
+Lab Calcolo Numerico/Metodo di rilassamento successivo/Lezione/Algoritmo di rilassamento successivo per componenti
+Laboratorio Calcolo Numerico - Appunti Completi/Metodo delle potenze/Lezione/Algoritmo metodo delle potenze
+Laboratorio Calcolo Numerico - Appunti Completi/Metodo delle potenze/Lezione/Algoritmo metodo delle potenze inverse
+Laboratorio Calcolo Numerico - Appunti completi/Minimi quadrati
+Laboratorio Calcolo Numerico - Appunti completi/Minimi quadrati/Esercizi
+Laboratorio Calcolo Numerico - Appunti completi/Minimi quadrati/Lezione
+Laboratorio Calcolo Numerico - Appunti completi/Single e double precision
+Laboratorio Calcolo Numerico - Appunti completi/Single e double precision/Esercizi
+Laboratorio Calcolo Numerico - Appunti completi/Single e double precision/Esercizi/Differenza in single precision
+Laboratorio Calcolo Numerico - Appunti completi/Single e double precision/Lezione
+Laboratorio Calcolo Numerico - Appunti completi/Ultime funzioni Matlab e generalità sull'errore
+Laboratorio Calcolo Numerico - Appunti completi/Ultime funzioni Matlab e generalità sull'errore/Esercizi
+Laboratorio Calcolo Numerico - Appunti completi/Ultime funzioni Matlab e generalità sull'errore/Esercizi/Errore di un algoritmo
+Laboratorio Calcolo Numerico - Appunti completi/Ultime funzioni Matlab e generalità sull'errore/Esercizi/Successione di Nepero
+Laboratorio Calcolo Numerico - Appunti completi/Ultime funzioni Matlab e generalità sull'errore/Lezione
+Laboratorio Calcolo Numerico - Appunti completi/Ultime funzioni Matlab e generalità sull'errore/Lezione/Fibonacci non ricorsiva
+Laboratorio Calcolo Numerico - Appunti completi/Ultime funzioni Matlab e generalità sull'errore/Lezione/Fibonacci ricorsiva
+Laboratorio Calcolo Numerico - Appunti completi/Ultime funzioni Matlab e generalità sull'errore/Lezione/Tempo di esecuzione
+Laboratorio Calcolo Numerico - Appunti completi/Valutare un polinomio e errore inerente
+Laboratorio Calcolo Numerico - Appunti completi/Valutare un polinomio e errore inerente/Esercizi
+Laboratorio Calcolo Numerico - Appunti completi/Valutare un polinomio e errore inerente/Esercizi/Calcolo delle radici ed errore
+Laboratorio Calcolo Numerico - Appunti completi/Valutare un polinomio e errore inerente/Esercizi/Sistema mal condizionato
+Laboratorio Calcolo Numerico - Appunti completi/Valutare un polinomio e errore inerente/Lezione
+Laboratorio Calcolo Numerico - Appunti completi/Valutare un polinomio e errore inerente/Lezione/Algoritmo di Horner
+Libri scientifici
+Linguaggi di programmazione
+Linguaggi e computabilità
+Lisp
+Macroeconomia
+Main HSF Page
+Main HSF Page/Some proposals for the HSF logo
+Manuale
+Manuale/Concetto principale: Capitolo
+Manuale/Concetto principale: Corso
+Manuale/Concetto principale: Sezione
+Manuale/Creare i libri
+Manuale/Importare da LaTeX
+Manuale/Importare da Word
+Manuale/L'editor visuale
+Manuale/La struttura di WikiToLearn
+Manuale/Ulteriori possibilità di contribuzione
+Manuale/Usare i templates
+Matematica
+Matematica P
+Meccanica Newtoniana dei sistemi di punti e corpi rigidi (Disambigua)
+Meccanica Newtoniana del punto materiale (Disambigua)
+Meccanica dei fluidi (Disambigua)
+Meccanica quantistica
+Meccanica razionale (Disambigua)
+Medicina
+More science
+Note sul linguaggio C e dintorni
+Onde meccaniche (Disambigua)
+Overview of STL
+Pagina principale
+Portale Comunità/Contenuti
+Portale Comunità/Contenuti/TODO task contenuti
+Portale Comunità/Diffusione/Dispense advertising
+Portale Comunità/Diffusione/Lista di cose da fare
+Portale Comunità/Diffusione/Volantini e poster
+Portale Comunità/Meeting/29 Nov 2012
+Portale Comunità/Meeting/6 Dic 2012
+Portale Comunità/Microsprint
+Pre-Università
+Programmazione C (Disambigua)
+Python (Disambigua)
+ROOT
+Relatività generale (Disambigua)
+Relatività ristretta
+Relazioni internazionali
+Rete IP
+Rete IP (Disambigua)
+Reti e sistemi operativi
+Reti e sistemi operativi/introduzione
+Reti e sistemi operativi/processi e thread
+Ruby
+Sage
+Sage/Fitting e ottimizzazione con ODR
+Sage/Risorse di terze parti
+Sage/Test statistici
+Scienze Umanistiche
+Scienze agrarie
+Scienze naturali
+Scienze sociali
+Scripting languages
+Sistemi Neurotrasmettitoriali
+Sistemi Operativi
+Spazi di Hilbert (Disambigua)
+Statistical tools
+Storia del teatro e dello spettacolo
+Struttura della materia (Disambigua)
+Studente
+Studi umanistici
+Tecnologie alimentari
+Teoria della misura
+Termodinamica classica
+The Standard Template Library
+Traduttore
+Trasformata di Fourier
+Unisciti
+Video scientifici
+Why STL
+Wiki+/Informatica
+Wiki+/Scienza
