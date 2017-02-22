@@ -1,8 +1,0 @@
-#### :Category:
-Category:CourseLevelTwo
-Category:CourseRoot
-Category:CourseSecondLevel
-Category:Department
-Category:Official Templates
-Category:ReadyToBePublished
-Category:Structure

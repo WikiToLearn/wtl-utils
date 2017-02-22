@@ -1,3 +1,5 @@
 !/input/.placeholder
 /input/
+!/output/.placeholder
+/output/
 /config.yaml
