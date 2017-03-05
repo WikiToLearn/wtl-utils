@@ -1,4 +1,4 @@
-FROM wikitolearn/pywikibot:0.3.4
+FROM wikitolearn/pywikibot:0.3.5
 RUN pip install pyyaml
 
 ADD ./src/ /opt/
