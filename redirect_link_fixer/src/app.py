@@ -1,4 +1,6 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import wtl
 import wtlpywikibot
 import pywikibot
 import pywikibot.pagegenerators as pg
@@ -8,12 +10,10 @@ import re
 import time
 import yaml
 
-
-stream = open('config.yaml', 'r')
-config = yaml.load(stream, Loader=yaml.Loader)
-lang = config["pywikibot"]["lang"]
-user = config["pywikibot"]["user"]
-passw = config["pywikibot"]["password"]
+config = wtl.load_config(config_dir="/etc/redirect_link_fixer/")
+username = config["username"]
+password = config["password"]
+lang = config["lang"]
 namespace = config["namespace"]
 
 
@@ -39,8 +39,8 @@ def get_regex(title):
 
 
 def main():
-    site = pywikibot.Site(lang, "wikitolearn")
-    wtlpywikibot.login(site,user,passw)
+    site = wtlpywikibot.site(config['lang'])
+    wtlpywikibot.login(site,username,password)
     print("Lang: " + lang )
 
     for red in pg.RedirectFilterPageGenerator(
@@ -52,7 +52,7 @@ def main():
         if len(pages_to_check)>0:
             fix_links(red, pages_to_check)
         #deleting Redirect
-        red.text += "[[Category:ToDelete]]"
+        red.text += "[[Category:DeleteMe]]"
         red.save(minor=True, botflag=True, async= True)
 
 if __name__ == "__main__":
