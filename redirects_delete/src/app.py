@@ -21,7 +21,7 @@ category = config["category"]
 
 def main():
     site = wtlpywikibot.site(config['lang'])
-    wtlpywikibot.login(site,username,password)
+    wtlpywikibot.login(site,username,password, sysop=True)
     print("\nDeleting pages")
     print("--------------")
     print("\nLang: " + lang )
@@ -32,7 +32,7 @@ def main():
         if p.isRedirectPage():
             print("Deleting redirect: {}".format(p.title()))
             p.delete("Deleting redirects of the old Courses structure",
-                     prompt=False, mark=True)
+                        prompt=False)
 
 if __name__ == "__main__":
 	main()
