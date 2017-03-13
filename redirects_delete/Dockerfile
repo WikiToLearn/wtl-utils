@@ -1,9 +1,8 @@
-FROM wikitolearn/pywikibot:0.3.5
-RUN pip install pyyaml
+FROM wikitolearn/pywikibot:0.3.6
 
 ADD ./src/ /opt/
 WORKDIR /opt/
 
 ENV PYTHONUNBUFFERED=0
 
-ENTRYPOINT python /opt/app.py
+ENTRYPOINT /opt/app.py

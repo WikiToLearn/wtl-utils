@@ -1,4 +1,6 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import wtl
 import wtlpywikibot
 import pywikibot
 import pywikibot.pagegenerators as pg
@@ -9,19 +11,20 @@ import time
 import yaml
 
 
-stream = open('config.yaml', 'r')
-config = yaml.load(stream, Loader=yaml.Loader)
-lang = config["pywikibot"]["lang"]
-user = config["pywikibot"]["user"]
-passw = config["pywikibot"]["password"]
+config = wtl.load_config(config_dir="/etc/redirects_delete/")
+lang = config["lang"]
+username = config["username"]
+password = config["password"]
 namespace = config["namespace"]
 category = config["category"]
 
 
 def main():
-    site = pywikibot.Site(lang, "wikitolearn")
-    wtlpywikibot.login(site,user,passw, sysop=True)
-    print("Lang: " + lang )
+    site = wtlpywikibot.site(config['lang'])
+    wtlpywikibot.login(site,username,password)
+    print("\nDeleting pages")
+    print("--------------")
+    print("\nLang: " + lang )
 
     cat = pywikibot.Category(site, category)
 
