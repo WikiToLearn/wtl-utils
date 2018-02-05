@@ -27,6 +27,14 @@ def main():
     print()
     print("Lang: " + lang )
 
+    print("List of pages")
+    print("-------------")
+    for p in pg.PrefixingPageGenerator(prefix, namespace=namespace, site = site):
+        if p.exists():
+            print("Deleting page: {}".format(p.title()))
+
+    print("Active Delete")
+    print("-------------")
     for p in pg.PrefixingPageGenerator(prefix, namespace=namespace, site = site):
         if p.exists():
             print("Deleting page: {}".format(p.title()))
