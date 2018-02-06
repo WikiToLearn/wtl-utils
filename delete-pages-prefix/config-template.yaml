@@ -1,6 +1,0 @@
-pywikibot :
-    lang: $lang
-    user: $username
-    password: $userpassword
-namespace: $namespace_code
-prefix: $prefix

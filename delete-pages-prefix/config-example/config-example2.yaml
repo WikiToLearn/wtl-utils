@@ -1,8 +1,0 @@
-pywikibot :
-    lang: testen
-    user: User
-    password: Pass
-namespace: Course
-prefix: Complex_Analysis_(Intermediate_Level)/Cauchy's Theorem and Green's Theorem
-
-
